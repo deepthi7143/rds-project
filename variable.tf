@@ -27,7 +27,7 @@ default = ""
  
 variable "password" { 
 type = string  
-default ="jenkins123"  
+default ="password"  
 } 
  
 variable "main_db_version" { 
