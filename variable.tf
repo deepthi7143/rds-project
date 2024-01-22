@@ -48,11 +48,11 @@ variable "replica_count" {
  
 variable "rds_replica_azs" { 
   type = list(string) 
-  default = ["ap-south-1"] 
+  default = ["us-east-1"] 
 } 
 variable "sg_vpc_id" { 
     type = string 
-    default = "vpc-02f97ab5ea86f7d26" 
+    default = "vpc-02889a9a5c0428fac" 
    
 } 
 variable "sg_ingress_from_port" { 
