@@ -4,7 +4,7 @@ resource "aws_db_instance" "rds" {
   engine_version       = var.main_db_version
   instance_class       = var.main_db_instance_class
   username             = var.main_db_username
-  password             = "jenkins"
+  password             = "jenkins123"
   parameter_group_name = var.parameter_group_name
 #   availability_zone = "us-east-1"
   skip_final_snapshot = true
